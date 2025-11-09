@@ -1,0 +1,16 @@
+Phase 1: 
+Static Analyzer: Write a Python script to scan a file's properties (like hashes and text strings) and check its reputation with the VirusTotal API.
+
+Phase 2: 
+Sandbox Environment: Use Docker to build a safe, isolated "victim" container where we can safely run files.
+
+Phase 3: 
+Dynamic Analyzer: Upgrade our script to run the file inside the sandbox and automatically log its behavior (like any files it creates).
+
+Phase 4: 
+Final Report: Have the script combine all this information into a single, easy-to-read report.
+
+
+cmd for virtual env-  .\venv\Scripts\Activate.ps1
+
+run safe test file-  python triage.py eicar.sh
